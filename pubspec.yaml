@@ -35,7 +35,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/lembang.jpg
+    - images/
+    # - assets/farm-house.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -51,12 +52,12 @@ flutter:
   fonts:
     - family: Staatliches
       fonts:
-        - asset: assets/fonts/Staatliches-Regular.ttf
+        - asset: images/fonts/Staatliches-Regular.ttf
     #       - asset: fonts/Schyler-Italic.ttf
     #         style: italic
     - family: Oxygen
       fonts:
-        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: images/fonts/Oxygen-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
